@@ -19,6 +19,8 @@ export class ContactForm extends Component {
     this.formReset();
   };
 
+
+
   formReset = () => {
     this.setState({ name: '', number: '' });
   };
